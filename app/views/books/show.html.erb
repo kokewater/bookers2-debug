@@ -1,12 +1,11 @@
-
 <div class="row">
 	<div class="col-xs-3">
 
 		<h2>User info</h2>
-		<%= render 'users/profile' %>
+		<%= render 'users/profile', user:@user %>
 
 		<h2>New book</h2>
-		<%= render 'books/form', book: @book %>
+		<%= render 'books/form', book: @books %>
 
 	</div>
 
@@ -30,4 +29,3 @@
 
 	</div>
 </div>
-
